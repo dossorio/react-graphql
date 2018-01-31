@@ -3,12 +3,13 @@ import PropTypes from 'prop-types';
 
 class Todo extends Component {
     propTypes = {
-        desc: PropTypes.string.required
+        key: PropTypes.string.required,
+        desc: PropTypes.number.required
     };
 
     render() {
         return (
-            <li>{this.props.desc}</li>
+            <li key={this.props.key}>{this.props.desc}</li>
         );
     }
 }

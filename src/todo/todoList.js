@@ -7,9 +7,9 @@ class TodoList extends Component {
 
         this.state = {
             todos: [
-                new Todo('This is something that needs to be done'),
-                new Todo('Another thing'),
-                new Todo('Really important stuff')
+                'This is something that needs to be done',
+                'Another thing',
+                'Really important stuff'
             ]
         };
     }
@@ -17,8 +17,9 @@ class TodoList extends Component {
     render() {
         return (
             <ul>
-                {this.state.todos.map(todo => todo)}
+                {this.state.todos.map((todo, key) => <Todo key={key} desc={todo} />)}
             </ul>
+            
         );
     }
 }

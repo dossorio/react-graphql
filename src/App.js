@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import PostList from './posts/postList';
+import PostList from './post-list/post-list';
 
 class App extends Component {
   render() {

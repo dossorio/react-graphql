@@ -9,7 +9,7 @@ class Todo extends Component {
 
     render() {
         return (
-            <li key={this.props.key}>{this.props.desc}</li>
+            <li className={'post-list__post'} key={this.props.key}>{this.props.desc}</li>
         );
     }
 }

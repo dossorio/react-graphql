@@ -1,3 +1,19 @@
+# react-graphql
+
+Let's play with react and graphql !
+
+## Install this project:
+
+- `yarn install`
+
+## Run this project:
+
+- `yarn start`
+
+## Hack this project:
+
+- `npm install -g graphql-cli`
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

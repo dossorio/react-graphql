@@ -13,7 +13,7 @@ class PostList extends Component {
             ]
         };
     }
-s
+
     render() {
         return (
             <ul className={'post-list'}>

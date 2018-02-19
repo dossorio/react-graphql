@@ -12,6 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "db:start": "docker run --detach -p=27018:27017 --name react-graphql-mongo mongo:3.4",
+    "db:stop": "docker rm -f react-graphql-mongo"
   }
 }

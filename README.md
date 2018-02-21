@@ -9,7 +9,8 @@ Let's play with react and graphql !
 
 ## Run this project:
 
-- `yarn start`
+- `yarn start:be` -> Starts GraphQL Back End
+- `yarn start:fe` -> Starts React Front End
 
 ## Hack this project:
 

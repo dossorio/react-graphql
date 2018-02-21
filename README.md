@@ -4,6 +4,7 @@ Let's play with react and graphql !
 
 ## Install this project:
 
+- `npm install -g babel-cli`
 - `yarn install`
 
 ## Run this project:
